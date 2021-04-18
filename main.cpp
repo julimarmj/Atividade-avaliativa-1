@@ -31,7 +31,8 @@ int main() {
     }
   i++;
   }
+  cout << "A palavra digitada é: ";
   for(int p=0; p<qn; p++){
-    cout << "A palavra digitada é: " << palavra[p];
+    cout << palavra[p];
   }
 } 
